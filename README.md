@@ -14,4 +14,4 @@ We will review and discuss your submission in your technical interview.
 Note - You should spend at least 1 hour on the exercise and we recommend approx 2 hours including write-up. 
 You may spend longer if you are interested but this is not required, and spending longer will not affect our assessment. 
 We will be reviewing the analytical thinking behind the approach you have taken, and the quality of your communication, 
-rather than the amount of work that has gone in or the absolute accuracy of your forecast.![image](https://user-images.githubusercontent.com/85572480/145651305-3b98b093-50f7-4a0d-b3ba-7fa8530b1a1d.png)
+rather than the amount of work that has gone in or the absolute accuracy of your forecast.

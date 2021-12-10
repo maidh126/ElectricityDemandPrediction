@@ -113,13 +113,13 @@ def model(pipeline, parameters, X_train, y_train, X, y):
     xmin, xmax = plt.xlim()
     ymin, ymax = plt.ylim()
     plt.plot([xmin, xmax], [ymin, ymax], "g--", lw=1, alpha=0.4)
-    plt.xlabel("True prices")
-    plt.ylabel("Predicted prices")
+    plt.xlabel("True demand")
+    plt.ylabel("Predicted demand")
     plt.annotate(' R-squared CV = {}'.format(round(float(cv_scores.mean()), 3)), size=9,
              xy=(xmin,ymax), xytext=(10, -15), textcoords='offset points')
     plt.annotate(grid_obj.best_params_, size=9,
                  xy=(xmin, ymax), xytext=(10, -35), textcoords='offset points', wrap=True)
-    plt.title('Predicted prices (EUR) vs. True prices (EUR)')
+    plt.title('Predicted demand vs. demand')
     plt.show()
 
 
@@ -205,15 +205,33 @@ param_neural = {'clf__alpha': [0.001, 0.01, 0.1, 1, 10, 100],
 
 ## execute model hyperparameter tuning and crossvalidation
 
+# 1. Linear Regression
 model(pipe_ols, param_ols, X_train, y_train, X, y)
+
+# 2. XGBoost
 model(pipe_xgb, param_xgb, X_train, y_train, X, y)
+
+# 3. KNN
 model(pipe_knn, param_knn, X_train, y_train, X, y)
+
+# 4. Lasso
 model(pipe_lasso, param_lasso, X_train, y_train, X, y)
+
+# 5. Ridge
 model(pipe_ridge, param_ridge, X_train, y_train, X, y)
+
+# 6. Polynomial Regression
 model(pipe_poly, param_poly, X_train, y_train, X, y)
+
+# 7. Decision Tree Regression
 model(pipe_tree, param_tree, X_train, y_train, X, y)
+
+# 8. Random Forest
 model(pipe_forest, param_forest, X_train, y_train, X, y)
+
+# 9. Multi-layer Perceptron (MLP) Regression
 model(pipe_neural, param_neural, X_train, y_train, X, y)
+
 
 
 ## Conclusion

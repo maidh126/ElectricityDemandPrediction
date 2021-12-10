@@ -72,31 +72,31 @@
 
 #### 3. Random Forest
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/Forest.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/Forest.png)
 
 #### 4. Polynomial
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/Poly.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/Poly.png)
 
 #### 5. Neural Network MLP
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/MLP.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/MLP.png)
 
 #### 6. KNN
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/KNN.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/KNN.png)
 
 #### 7. OLS
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/OLS.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/OLS.png)
 
 #### 8. Lasso
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/Lasso.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/Lasso.png)
 
 #### 9. Ridge
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/Ridge.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/Ridge.png)
 
 
 

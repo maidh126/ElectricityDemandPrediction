@@ -239,7 +239,7 @@ model(pipe_neural, param_neural, X_train, y_train, X, y)
 ## Apply KNN to validation set
 
 # Fit KNN model
-knn = KNeighborsRegressor(parameters=param_knn)
+knn = KNeighborsRegressor(param_knn)
 
 # predict validation
 knn_pred = knn.predict(vali)

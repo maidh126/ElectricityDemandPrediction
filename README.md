@@ -81,7 +81,7 @@
 
 #### 4. Polynomial
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/4_Lasso.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/4_Lasso.png)
 
 #### 5. Ridge
 

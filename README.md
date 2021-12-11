@@ -52,8 +52,8 @@
   * Score: 0.883
 
 **9. Multi-layer Perceptron (MLP) Regression**                                        	 					
-  * Parameters: 
-  * Score: 
+  * Parameters: 'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (7, 7, 7), 'clf__learning_rate': 'constant', 'clf__solver': 'lbfgs'
+  * Score: 0.862
 
 
 ## Sample data input (Pandas DataFrame)

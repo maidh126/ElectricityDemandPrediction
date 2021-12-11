@@ -55,14 +55,20 @@ def model(pipeline, parameters, X_train, y_train, X, y):
                             n_jobs=1,
                             refit=True)
     grid_obj.fit(X_train, y_train)
-
+    
+    grid_obj.predict(vali)
+    
     '''Results'''
 
     results = pd.DataFrame(pd.DataFrame(grid_obj.cv_results_))
-    results_sorted = results.sort_values(by=['mean_test_score'], ascending=False)
+    # results_sorted = results.sort_values(by=['mean_test_score'], ascending=False)
+    results_vali = grid_obj.predict(vali)
+    
 
     print("##### Results")
-    print(results_sorted)
+    # print(results_sorted)
+    print(results)
+    print(results_vali)
 
     print("best_index", grid_obj.best_index_)
     print("best_score", grid_obj.best_score_)
@@ -121,6 +127,13 @@ def model(pipeline, parameters, X_train, y_train, X, y):
                  xy=(xmin, ymax), xytext=(10, -35), textcoords='offset points', wrap=True)
     plt.title('Predicted demand vs. demand')
     plt.show()
+
+    ## print results to valiadation set
+    # convert array to serial 
+    new_series = pd.Series(results_vali)
+
+    df_vali.iloc[:,4] = new_series.values
+    print(df_vali)
 
 
 ## scikit learn models
@@ -236,22 +249,5 @@ model(pipe_neural, param_neural, X_train, y_train, X, y)
 
 ## Conclusion: KNN fits the best
 
-## Apply KNN to validation set
-
-# Fit KNN model
-knn = KNeighborsRegressor(param_knn)
-
-# predict validation
-knn_pred = knn.predict(vali)
-knn_pred
-
-# convert array to serial 
-knn_array = knn.array(knn_pred)
-new_series = pd.Series(knn_pred)
-new_series
-
-# 
-df_vali.iloc[:,4] = new_series.values
-df_vali
 
 

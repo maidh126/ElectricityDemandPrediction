@@ -1,4 +1,4 @@
-# Approach
+## Approach
 
 - load Pandas DataFrame containing electricity data
 - split the data in train, test and validation sets (+ normalise independent variables if required) 
@@ -8,7 +8,7 @@
 - find the best model and fit to validation set to find missing electricity demand
 
 
-# Packages required
+## Packages required
 
 - [Python 3.8](https://www.python.org/downloads/)
 - [Matplotlib](https://matplotlib.org/)
@@ -97,10 +97,10 @@
 
 
 
-# Conclusion
+## Conclusion
 KNN fits the best
 
-# Apply model to validation set
+## Apply model to validation set
 ```
        period  temperature  hours before sunrise  hours before sunset   demand
 48240   48241         11.9              3.833333            20.316667   530.16

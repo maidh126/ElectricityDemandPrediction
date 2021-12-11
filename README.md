@@ -5,7 +5,7 @@
 - fit model parameters using GridSearchCV [scikit-learn](http://scikit-learn.org/stable/)
 - evaluate estimator performance by means of 5 fold 'shuffled' nested cross-validation
 - predict cross validated estimates of y for each data point and plot on scatter diagram vs true y
-- find the best model and fit to validation set to find electricity demand
+- find the best model and fit to validation set to find missing electricity demand
 
 
 # Packages required

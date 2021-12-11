@@ -85,23 +85,23 @@
 
 #### 5. Ridge
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/5_Ridge.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/5_Ridge.png)
 
 #### 6. Polynomial Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/6_PolynomialRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/6_PolynomialRegression.png)
 
 #### 7. Decision Tree Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/7_DecisionTreeRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/7_DecisionTreeRegression.png)
 
 #### 8. Random Forest
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/8_RandomForest.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/8_RandomForest.png)
 
 #### 9. MLP Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/9_MLPRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/9_MLPRegression.png)
 
 
 

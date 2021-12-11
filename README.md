@@ -120,4 +120,4 @@ KNN fits the best
 
 
 # References
-- [Pipeline](https://medium.com/analytics-vidhya/scikit-learn-pipeline-d43c80559257) and [Github](https://github.com/isheunesutembo/Scikit-Learn-Pipelines/blob/master/SkLearn%20Pipelines.ipynb)
+- [Pipeline Document](https://medium.com/analytics-vidhya/scikit-learn-pipeline-d43c80559257) and [Github](https://github.com/isheunesutembo/Scikit-Learn-Pipelines/blob/master/SkLearn%20Pipelines.ipynb)

@@ -17,6 +17,17 @@
 - [scikit-learn](http://scikit-learn.org/stable/)
 
 
+## Sample data input (Pandas DataFrame)
+
+```
+       period	 temperature	  hours before sunrise	    hours before sunset	   demand
+0	  1	        8.4	            6.016667	              17.633333	      496.0
+1	  2	        8.1	            5.516667	              17.133333	      535.0
+2	  3	        7.8	            5.016667	              16.633333	      511.0
+3	  4	        7.5	            4.516667	              16.133333	      496.0
+4	  5	        7.3	            4.016667	              15.633333	      490.0
+```
+
 ## Scores (5 fold nested 'shuffled'cross-validation - Rsquared)
 
 **1. Linear Regression**											                                            
@@ -51,17 +62,6 @@
   * Parameters: 'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (7, 7, 7), 'clf__learning_rate': 'constant', 'clf__solver': 'lbfgs'
   * Score: 0.862
 
-
-## Sample data input (Pandas DataFrame)
-
-```
-       period	temperature	  hours before sunrise	   hours before sunset	  demand
-0	  1	        8.4	            6.016667	              17.633333	      496.0
-1	  2	        8.1	            5.516667	              17.133333	      535.0
-2	  3	        7.8	            5.016667	              16.633333	      511.0
-3	  4	        7.5	            4.516667	              16.133333	      496.0
-4	  5	        7.3	            4.016667	              15.633333	      490.0
-```
 
 #### 1. Linear Regression
 

@@ -21,35 +21,35 @@
 
 **1. Linear Regression**											                                            
   * Parameters: non
-  * Score: 0.55
+  * Score: 0.548
 
 **2. XGBoost**        									                                   
-  * Parameters: 
-  * Score: 0.916
+  * Parameters: clf_colsample_bytree: 1, clf_gamma: 0.01, clf_ max_depth: 5, clf_min_child_weight': 6, clf_subsample: 0.7
+  * Score: 0.918
 
 **3. KNN**                                							
-  * Parameters: 
-  * Score: 0.917
+  * Parameters: clf__n_neighbors: 25
+  * Score: 0.918
   
 **4. Lasso** 				     					
-  * Parameters: 
-  * Score: 0.55
+  * Parameters: clf__alpha: 0.01
+  * Score: 0.548
   
 **5. Ridge**                                   							
-  * Parameters:
-  * Score: 0.55
+  * Parameters: clf__alpha: 1
+  * Score: 0.548
 
 **6. Polynomial Regression**                                    				
-  * Parameters: 
+  * Parameters: polynomial__degree: 6
   * Score: 0.87
   
 **7. Decision Tree Regression** 		                                        				
-  * Parameters: 
-  * Score: 0.91
+  * Parameters: clf__max_depth: 10, clf__min_samples_leaf: 10
+  * Score: 0.911
   
 **8. Random Forest**                                        	 					
-  * Parameters: 
-  * Score: 0.885
+  * Parameters: clf__max_depth: 5, clf__max_features: 2, clf__n_estimators: 50
+  * Score: 0.883
 
 **9. Multi-layer Perceptron (MLP) Regression**                                        	 					
   * Parameters: 

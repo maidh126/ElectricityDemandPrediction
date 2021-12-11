@@ -69,11 +69,11 @@
 
 #### 1. Linear Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/1_LinearRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/1_LinearRegression.png)
 
 #### 2. XGBoost
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/2_XGBoost.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/2_XGBoost.png)
 
 #### 3. KNN
 

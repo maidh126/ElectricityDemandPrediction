@@ -234,5 +234,24 @@ model(pipe_neural, param_neural, X_train, y_train, X, y)
 
 
 
-## Conclusion
+## Conclusion: KNN fits the best
+
+## Apply KNN to validation set
+
+# Fit KNN model
+knn = KNeighborsRegressor(parameters=param_knn)
+
+# predict validation
+knn_pred = knn.predict(vali)
+knn_pred
+
+# convert array to serial 
+knn_array = knn.array(knn_pred)
+new_series = pd.Series(knn_pred)
+new_series
+
+# 
+df_vali.iloc[:,4] = new_series.values
+df_vali
+
 

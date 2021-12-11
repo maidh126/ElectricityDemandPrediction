@@ -3,10 +3,8 @@ import warnings
 warnings.filterwarnings('ignore')
 # warnings.filterwarnings(action='once')
 
-!pip
-install
-scikit - learn
-# !pip install xgboost
+!pip install scikit - learn
+!pip install xgboost
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -19,8 +17,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score, cross_val_predict, KFold
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn.pipeline import Pipeline
-
-# import xgboost as xgb
+import xgboost as xgb
 
 # read csv
 file = pd.read_csv('Data.csv')
@@ -64,12 +61,12 @@ def model(pipeline, parameters, X_train, y_train, X, y):
     '''Results'''
 
     results = pd.DataFrame(pd.DataFrame(grid_obj.cv_results_))
-    # results_sorted = results.sort_values(by=['mean_test_score'], ascending=False)
+    results_sorted = results.sort_values(by=['mean_test_score'], ascending=False)
     results_vali = grid_obj.predict(vali)
 
     print("##### Results")
-    # print(results_sorted)
-    print(results)
+    print(results_sorted)
+#     print(results)
     print(results_vali)
 
     print("best_index", grid_obj.best_index_)
@@ -209,32 +206,14 @@ param_neural = {'clf__alpha': [0.001, 0.01, 0.1, 1, 10, 100],
                 'clf__learning_rate': ['constant', 'invscaling']}
 
 ## execute model hyperparameter tuning and crossvalidation
-
-# 1. Linear Regression
 model(pipe_ols, param_ols, X_train, y_train, X, y)
-
-# 2. XGBoost
 model(pipe_xgb, param_xgb, X_train, y_train, X, y)
-
-# 3. KNN
 model(pipe_knn, param_knn, X_train, y_train, X, y)
-
-# 4. Lasso
 model(pipe_lasso, param_lasso, X_train, y_train, X, y)
-
-# 5. Ridge
 model(pipe_ridge, param_ridge, X_train, y_train, X, y)
-
-# 6. Polynomial Regression
 model(pipe_poly, param_poly, X_train, y_train, X, y)
-
-# 7. Decision Tree Regression
 model(pipe_tree, param_tree, X_train, y_train, X, y)
-
-# 8. Random Forest
 model(pipe_forest, param_forest, X_train, y_train, X, y)
-
-# 9. Multi-layer Perceptron (MLP) Regression
 model(pipe_neural, param_neural, X_train, y_train, X, y)
 
 ## Conclusion: KNN fits the best

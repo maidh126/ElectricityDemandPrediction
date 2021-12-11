@@ -23,10 +23,6 @@
   * Parameters: non
   * Score: 0.548
 
-**2. XGBoost**        									                                   
-  * Parameters: clf_colsample_bytree: 1, clf_gamma: 0.01, clf_ max_depth: 5, clf_min_child_weight': 6, clf_subsample: 0.7
-  * Score: 0.918
-
 **3. KNN**                                							
   * Parameters: clf__n_neighbors: 25
   * Score: 0.918

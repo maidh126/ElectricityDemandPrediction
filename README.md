@@ -62,41 +62,41 @@
 4	  5	        7.3	            4.016667	              15.633333	      490.0
 ```
 
-#### 1. Scatter plot
+#### 1. Linear Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/Scatter.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/1_linear Regression.png)
 
 #### 2. XGBoost
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/XGB.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/master/2. XGBoost.png)
 
-#### 3. Random Forest
+#### 3. KNN
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/Forest.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/3. KNN.png)
 
 #### 4. Polynomial
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/Poly.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/4. Lasso.png)
 
-#### 5. Neural Network MLP
+#### 5. Ridge
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/MLP.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/5. Ridge.png)
 
-#### 6. KNN
+#### 6. Polynomial Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/KNN.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/6. Polynomial Regression.png)
 
-#### 7. OLS
+#### 7. Decision Tree Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/OLS.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/7. Decision Tree Regression.png)
 
-#### 8. Lasso
+#### 8. Random Forest
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/Lasso.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/8. Random Forest.png)
 
-#### 9. Ridge
+#### 9. MLP Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/Ridge.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/9. MLP Regression.png)
 
 
 

@@ -20,7 +20,7 @@
 ## Sample data input (Pandas DataFrame)
 
 ```
-       period	    temperature            hours before sunrise	  hours before sunset      demand
+       period	    temperature        hours before sunrise    hours before sunset    demand
 0	  1	        8.4	            6.016667	              17.633333	      496.0
 1	  2	        8.1	            5.516667	              17.133333	      535.0
 2	  3	        7.8	            5.016667	              16.633333	      511.0

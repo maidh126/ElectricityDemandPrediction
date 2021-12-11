@@ -19,37 +19,42 @@
 
 ## Scores (5 fold nested 'shuffled'cross-validation - Rsquared)
 
-**1. XGBoost Regression**											                                            
-  * Parameters: 
-  * Score: 
+**1. Linear Regression**											                                            
+  * Parameters: non
+  * Score: 0.55
 
-**2. Random Forest Regression**        									                                   
+**2. XGBoost**        									                                   
   * Parameters: 
-  * Score:
+  * Score: 0.916
 
-**3. Polynomial Regression**                                							
+**3. KNN**                                							
   * Parameters: 
-  * Score:
+  * Score: 0.917
   
-**4. Neural Network MLP Regression** 				     					
+**4. Lasso** 				     					
   * Parameters: 
-  * Score: 
+  * Score: 0.55
   
-**5. KNN Regression**                                   							
+**5. Ridge**                                   							
   * Parameters:
+  * Score: 0.55
+
+**6. Polynomial Regression**                                    				
+  * Parameters: 
+  * Score: 0.87
+  
+**7. Decision Tree Regression** 		                                        				
+  * Parameters: 
+  * Score: 0.91
+  
+**8. Random Forest**                                        	 					
+  * Parameters: 
+  * Score: 0.885
+
+**9. Multi-layer Perceptron (MLP) Regression**                                        	 					
+  * Parameters: 
   * Score: 
 
-**6. Ordinary Least-Squares Regression**                                    				
-  * Parameters: 
-  * Score: 
-  
-**7. Ridge Regression** 		                                        				
-  * Parameters: 
-  * Score: 
-  
-**8. Lasso Regression**                                        	 					
-  * Parameters: 
-  * Score: 
 
 ## Sample data input (Pandas DataFrame)
 
@@ -98,6 +103,15 @@
 
 ![alt text](https://github.com/maidh126/ElectricityDemandPrediction//blob/main/plot/9_MLPRegression.png)
 
+
+
+# Conclusion
+KNN fits the best
+
+# Apply model to validation set
+```
+
+```
 
 
 # References

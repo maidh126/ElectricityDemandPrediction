@@ -69,39 +69,39 @@
 
 #### 1. Linear Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/1_LinearRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/1_LinearRegression.png)
 
 #### 2. XGBoost
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/2_XGBoost.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/2_XGBoost.png)
 
 #### 3. KNN
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/3_KNN.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/3_KNN.png)
 
 #### 4. Polynomial
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/4_Lasso.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/4_Lasso.png)
 
 #### 5. Ridge
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/5_Ridge.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/5_Ridge.png)
 
 #### 6. Polynomial Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/6_PolynomialRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/6_PolynomialRegression.png)
 
 #### 7. Decision Tree Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/7_DecisionTreeRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/7_DecisionTreeRegression.png)
 
 #### 8. Random Forest
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/8_RandomForest.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/8_RandomForest.png)
 
 #### 9. MLP Regression
 
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plot/9_MLPRegression.png)
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/9_MLPRegression.png)
 
 
 

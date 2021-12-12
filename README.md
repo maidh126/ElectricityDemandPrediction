@@ -30,6 +30,40 @@ Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, R
 4	  5	        7.3	            4.016667	              15.633333	      490.0
 ```
 
+#### 1. Linear Regression
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/1_LinearRegression.png)
+
+#### 3. KNN
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/3_KNN.png)
+
+#### 4. Polynomial
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/4_Lasso.png)
+
+#### 5. Ridge
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/5_Ridge.png)
+
+#### 6. Polynomial Regression
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/6_PolynomialRegression.png)
+
+#### 7. Decision Tree Regression
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/7_DecisionTreeRegression.png)
+
+#### 8. Random Forest
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/8_RandomForest.png)
+
+#### 9. MLP Regression
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/9_MLPRegression.png)
+
+
+
 ## Scores (5 fold nested 'shuffled'cross-validation - Rsquared)
 
 **1. Linear Regression**											                                            
@@ -63,40 +97,6 @@ Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, R
 **9. Multi-layer Perceptron (MLP) Regression**                                        	 					
   * Parameters: 'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (7, 7, 7), 'clf__learning_rate': 'constant', 'clf__solver': 'lbfgs'
   * Score: 0.862
-
-
-#### 1. Linear Regression
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/1_LinearRegression.png)
-
-#### 3. KNN
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/3_KNN.png)
-
-#### 4. Polynomial
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/4_Lasso.png)
-
-#### 5. Ridge
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/5_Ridge.png)
-
-#### 6. Polynomial Regression
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/6_PolynomialRegression.png)
-
-#### 7. Decision Tree Regression
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/7_DecisionTreeRegression.png)
-
-#### 8. Random Forest
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/8_RandomForest.png)
-
-#### 9. MLP Regression
-
-![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/9_MLPRegression.png)
-
 
 
 ## Conclusion

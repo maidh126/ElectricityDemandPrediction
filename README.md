@@ -118,6 +118,3 @@ KNN fits the best
 52559   52560         11.9            -17.516667            -5.800000   591.56
 ```
 
-
-# References
-- [Pipeline Document](https://medium.com/analytics-vidhya/scikit-learn-pipeline-d43c80559257) and [Github](https://github.com/isheunesutembo/Scikit-Learn-Pipelines/blob/master/SkLearn%20Pipelines.ipynb)

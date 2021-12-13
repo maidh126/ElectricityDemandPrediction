@@ -108,9 +108,9 @@ Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, R
 
 
 ## Conclusion
-KNN fits the best
+KNN and XGBoost fit the best
 
-## Apply model to validation set
+## Apply KNN model to validation set
 ```
        period  temperature  hours before sunrise  hours before sunset   demand
 48240   48241         11.9              3.833333            20.316667   530.16

@@ -444,6 +444,3 @@ model(pipe_neural, param_neural, X_train, y_train, X, y)
 #   * Parameters: 'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (7, 7, 7), 'clf__learning_rate': 'constant', 'clf__solver': 'lbfgs'
 #   * Score: 0.862
 
-# ## References
-
-# - [Pipeline](https://medium.com/analytics-vidhya/scikit-learn-pipeline-d43c80559257) and [Github](https://github.com/isheunesutembo/Scikit-Learn-Pipelines/blob/master/SkLearn%20Pipelines.ipynb)

@@ -3,7 +3,7 @@ Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, R
 ## Approach
 
 - load Pandas DataFrame containing electricity data
-- split the data in train, test and validation sets (+ normalise independent variables if required) 
+- split the data in train, test and validation sets 
 - fit model parameters using GridSearchCV [scikit-learn](http://scikit-learn.org/stable/)
 - evaluate estimator performance by means of 5 fold 'shuffled' nested cross-validation
 - predict cross validated estimates of y for each data point and plot on scatter diagram vs true y

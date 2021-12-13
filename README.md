@@ -34,6 +34,10 @@ Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, R
 
 ![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/1_LinearRegression.png)
 
+#### 2. XGBoost
+
+![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/2_XGBoost.png)
+
 #### 3. KNN
 
 ![alt text](https://github.com/maidh126/ElectricityDemandPrediction/blob/main/plots/3_KNN.png)
@@ -64,11 +68,15 @@ Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, R
 
 
 
-## Scores (5 fold nested 'shuffled'cross-validation - Rsquared)
+## Scores (5 fold nested 'shuffled'cross-validation)
 
 **1. Linear Regression**											                                            
   * Parameters: non
   * Score: 0.548
+
+**2. XGBoost**											                                            
+  * Parameters: 'clf__colsample_bytree': 1, 'clf__gamma': 0.01, 'clf__max_depth': 5, 'clf__min_child_weight': 6, 'clf__subsample': 0.7
+  * Score: 0.918
 
 **3. KNN**                                							
   * Parameters: clf__n_neighbors: 25

@@ -1,4 +1,4 @@
-Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, Ridge, Polynomial, Random Forest, and Neural Network MLP Regression via scikit-learn
+Predicting electricity demand by using Linear Regression, XGBoost, KNN, Lasso, Ridge, Polynomial, Random Forest, and Neural Network MLP Regression via pipeline scikit-learn
 
 ## Approach
 
